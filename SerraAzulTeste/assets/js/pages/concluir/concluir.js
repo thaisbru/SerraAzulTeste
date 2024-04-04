@@ -16,13 +16,13 @@ function proximaPagina() {
   // Se o usuário confirmar, redireciona para a próxima página
   if (confirmacao) {
     // Redireciona para a próxima página
-    window.location.href = "/assets/index.html";
+    window.location.href = "../assets/index.html";
   }
 }
 
 function voltarPagina() {
   // Volta para a página de pagamento
-  window.location.href = "/assets/pagamento.html";
+  window.location.href = "../assets/pagamento.html";
 }
 
 window.onload = function () {
@@ -101,7 +101,7 @@ span.onclick = function () {
 // Event listener para o botão "Sim" (confirmar)
 document.getElementById("confirmar").addEventListener("click", function () {
   // Redireciona para a próxima página
-  window.location.href = "/assets/index.html";
+  window.location.href = "../assets/index.html";
 });
 
 // Event listener para o botão "Cancelar"

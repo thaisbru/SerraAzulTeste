@@ -12,7 +12,7 @@ function proximaPagina() {
   localStorage.setItem("codigoSeguranca", codigoSeguranca);
 
   // Redireciona para a próxima página
-  window.location.href = "/assets/concluir.html";
+  window.location.href = "../assets/concluir.html";
 }
 
 function voltarPagina() {
