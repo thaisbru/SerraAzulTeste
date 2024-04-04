@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #0f1f37;
+  color: #ffffff;
+}
+.back-button {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 20px; /* Adiciona espaço à direita */
+}
+.back-button:hover {
+  background-color: #0f1f37;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* altura total da tela */
+}
+
+.form-container {
+  width: 80%; /* Definindo a largura do contêiner */
+  max-width: 600px; /* Limitando a largura máxima */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center; /* Alinha o conteúdo do contêiner ao centro */
+  margin-top: 50px; /* Adiciona espaço superior */
+}
+
+form {
+  text-align: left; /* alinha todo o conteúdo do formulário à esquerda */
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.asterisk {
+  color: red;
+  margin-left: 5px;
+}
+
+.approval {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.form-group input[type="date"] {
+  padding: 8px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #0f1f37;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0f2e4e; /* Altera a cor de fundo ao passar o mouse */
+  color: #ffffff; /* Altera a cor do texto ao passar o mouse */
+}
